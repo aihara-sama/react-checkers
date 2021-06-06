@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url(./images/checkers-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.d-none {
+  visibility: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.find-opponent-btn {
+  transition: 0.6s;
+  background: linear-gradient(45deg, #61bcf2, transparent);
+  padding: 10px 25px;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+  color: #09638e;
+  box-shadow: inset 0px 0px 8px 0px #2717aa;
+}
+
+.find-opponent-btn:hover {
+  box-shadow: inset 0px 0px 8px 0px #24b7e3;
+}
+
+.your-turn-btn {
+  margin: 3rem auto 0 auto;
+  width: 11rem;
+  display: block;
+  background: orange;
+  border: none;
+  font-size: 1.2rem;
+  color: #0c030e;
+  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
+  box-shadow: inset 0px 0px 16px 0px #8b4e1a;
+}
